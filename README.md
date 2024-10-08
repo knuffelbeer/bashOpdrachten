@@ -32,6 +32,11 @@ Schrijf een script dat alle `.txt` bestanden in een directory hernoemt door de h
 + **Doel**: Gebruik een `for`-loop om door de bestanden te gaan en een `if`-statement om de bestandsextensie te controleren.
 + **Hints**: Gebruik `date` om de huidige datum te krijgen en `mv` om de bestanden te hernoemen.
 
+# Vergemakkelijk het verplaatsen van bestanden
++ maak een  programma  dat de gebruiker eerst een bestand laat zoeken, en daarna een map laat zoeken in laat voeren om het bestand heen te verplaatsen.
++ **Doel**: Gebruik `fzf` om een bestand te zoeken en daarna `read` in combinatie met `fzf` om een map te zoeken. 
+
+
 # Controleer schijfruimte en waarschuw gebruikers
 Schrijf een script dat de schijfruimte van de `/home` directory controleert. Als de schijfruimte meer dan 80% is, moet het script een waarschuwingsbericht weergeven.
 + **Doel**: Gebruik een `if`-statement om het percentage schijfruimte te controleren.
@@ -41,8 +46,3 @@ Schrijf een script dat de schijfruimte van de `/home` directory controleert. Als
 Schrijf een script dat een directory scant en alle bestanden rapporteert die permissies hebben ingesteld op 777 (wereldwijd leesbaar, schrijfbaar en uitvoerbaar). Print de namen van deze bestanden.
 + **Doel**: Gebruik een `for`-loop om elk bestand te controleren en een `if`-statement om de bestandspermissies te evalueren.
 + **Hints**: Gebruik `ls -l` om permissies te controleren.
-
-# Eenvoudige logbestandrotatie
-Schrijf een script dat controleert of een logbestand (bijv. `/var/log/syslog`) groter is dan 10MB. Als dat zo is, moet het script het logbestand archiveren en een nieuw leeg logbestand aanmaken.
-+ **Doel**: Gebruik een `if`-statement om de bestandsgrootte te controleren en een `for`-loop om meerdere logbestanden te verwerken.
-+ **Hints**: Gebruik `du` of `stat` om de bestandsgrootte te controleren, en `mv` om de logs te roteren.
