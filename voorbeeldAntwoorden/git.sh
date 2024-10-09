@@ -4,11 +4,7 @@ if [[ $1 == "" ]]; then
 	echo "submit message!"
 	read -r message 
 	if [[ $message == "" ]]; then
-	message="Enter a message:"
-  read -r message 
-  if [[ $message == "" ]]; then
-					message="No message"
-  fi
+	message="No message"
 	fi
 else 
 	message=$1
