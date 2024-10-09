@@ -7,11 +7,12 @@
 + In de map `data/` bevat elk bestand de gegevens  van één werknemer. Schrijf een script dat de inhoud van alle bestanden bij elkaar voegt.. **Hint**: gebruik een `for`-loop om door de resultaten van het `ls` command heen te loopen.
 
 # Maak een backup van belangrijke configuratiebestanden
-+  Maak een script dat belangrijke configuratiebestanden (bijv. `.bashrc`, `.vimrc`, `.tmux.conf`) kopieert naar een back-up directory, maar alleen als ze in de afgelopen 7 dagen zijn gewijzigd.. **Hint**: Gebruik een `for`-loop om door de bestanden te gaan en ze te kopiëren
++  Maak een script dat belangrijke configuratiebestanden (bijv. `.bashrc`, `.vimrc`, `.tmux.conf`) kopieert naar een back-up directory, maar alleen als ze in de afgelopen 7 dagen zijn gewijzigd.. **Hint**: Gebruik een `for`-loop om door de bestanden te gaan en ze te kopiëren. Je kunt de datum van de laatste wijzingen zien met `stat`.
 
 # Maak Git makkelijker
-+  Schrijf een script om `git add`, `git commit -m "message"` en `git push` allemaal in een keer uit te voeren.. **Hint**: laat de gebruiker een boodschap als input geven en gebruik dat als 'message' om voor de commit
++ Schrijf een script om `git add`, `git commit -m "message"` en `git push` allemaal in een keer uit te voeren.. **Hint**: laat de gebruiker een boodschap als input geven en gebruik dat als 'message' om voor de commit
 + Maak een alias in je `.zshrc` om dit bestand te runnen.
++ Pas het bestand uit de vorige opgaves (voor de backup) aan om het bestand dat git synchroniseert te runnen wanneer één van de bestanden in de dotfiles map in de afgelopen 7 dagen is aangepast.
 
 #  Batch hernoemen van bestanden
 +  Loop door de lijst `"Alice_Williams.txt Bob_Johnson.txt David_Wilson.txt Jane_Wilson.txt Eve_Black.txt"` en  print de bestanden die aanwezig zijn in de map `data/`.. **Hint**: Gebruik een `for`-loop om door de lijst heen te loopen en `if`-statement om te checken of het bestand bestaat. Verder laat de exit-status van `test -e` laat zien of een bestand bestaat of niet. 
