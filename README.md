@@ -5,7 +5,7 @@
 **Hint**: Gebruik een `if`-statement in de loop om te kijken of een getal even is. De modulo operator `%` check wat overblijft wanneer je een getal door een ander getal deelt. Als een getal even is, is `getal % 2` gelijk aan 0.
 
 # Bestanden bij elkaar voegen
-+ Maak een map `data/` aan en run daarna het bestand `generateFiles.sh` om de bestanden voor deze opdracht aan te maken
++ Maak een map `data/` aan en run daarna het bestand `genereerBestanden.sh` om de bestanden voor deze opdracht aan te maken
 **Hint**: gebruik eerst `chmod` om het bestand de juiste permissies te geven.
 + In de map `data/` bevat elk bestand de gegevens  van één werknemer. Schrijf een script dat de inhoud van alle bestanden bij elkaar voegt.
 **Hint**: gebruik een `for`-loop om door de resultaten van het `ls` command heen te loopen.
