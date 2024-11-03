@@ -1,3 +1,4 @@
+Een aantal oefeningen om te oefenen met bash scripten. In het bestand forLoops.sh staan een aantal verschillende soorten `for`-loops die je kunt gebruiken.
 # Oefenen for-loops en if-statements
 + Print alle getallen van 0 tot 100. **Hint**: Gebruik een `for`-loop om door alle getallen van 0 tot 100 te loopen en `echo` om ze één voor één te printen
 + Print nu alleen de even getallen. **Hint**: Gebruik een `if`-statement in de loop om te kijken of een getal even is. De modulo operator `%` check wat overblijft wanneer je een getal door een ander getal deelt. Als een getal even is, is `getal % 2` gelijk aan 0.
