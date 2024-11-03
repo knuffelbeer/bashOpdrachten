@@ -8,7 +8,7 @@
 
 + comprimeer deze map tot het opdrachten.tar bestand. en pak daarna het opdrachten.tar bestand weer uit
 
-+ doe hetzelfde voor een maar dan met zip.
++ doe hetzelfde voor een maar dan met zip
 
 
 # package manager
@@ -30,26 +30,31 @@
 # pipes, streams en substituties
 
  fzf is een programma dat de gebruiker interactief laat zoeken
- zoek door de stdin, en de geselecteerde waarde print. 
- Normaal gesproken zoekt het door alle bestanden map.
+ zoek door de stdin, en de geselecteerde waarde print
+ Normaal gesproken zoekt het door alle bestanden map
 
-+ laat de gebruiker een fruitsoort uit het bestand fruit.txt selecteren.
++ laat de gebruiker een fruitsoort uit het bestand fruit.txt selecteren
 + print de eerste 10 fruitsoorten
 + print het aantal fruitsoorten
  
 + sorteer de fruitsoorten op alphabetische volgorde
++ print het aantal regels met `wc` voor alle bestanden die optxt eindigen
 
 + laat de gebruiker opnieuw een fruitsoort selecteren en print dan "Je hebt 'naam_fruitsoort' geselecteerd"
 
-+ gebruik het sort commando om de waarden uit het bestand fruit.txt te sorteren.
++ gebruik het sort commando om de waarden uit het bestand fruit.txt te sorteren
   En schrijf het resultaat van naar een bestand genaamd fruitGesorteerd.txt
 
 + laat de gebruiker door alleen de mappen zoeken en een map selecteren
 
-+ je wilt nog een keer de inhoud van het bestand fruit.txt bekijken. 
-  Helaas ben je vergeten dat je hier voor niet bat maar cat.
-  Schrijf de error van het command bat fruit.txt naar een bestand.
++ je wilt nog een keer de inhoud van het bestand fruit.txt bekijken
+  Helaas ben je vergeten dat je hier voor niet bat maar cat
+  Schrijf de error van het command bat fruit.txt naar een bestand
 
+# find
+
++ Zoek naar alle bestanden met de extensie .txt in de huidige directory en subdirectories
++ zoek alle lege bestanden in de huidge map
 
 # sed, awk en grep
 
@@ -57,36 +62,37 @@
 
 + vindt alle werknemers die werken in de Engineering afdeling.
 
-+ gebruik `grep` in combinatie met `wc` om het aantal ingenieurs te tellen.
++ gebruik `grep` in combinatie met `wc` om het aantal ingenieurs te tellen
 
-+ Gebruik `awk` om de fruitlijst om te zetten in een genummerde lijst. Hint: `NR` geeft het regelnummer in `awk`
-+ Gebruik `sed` om alle fruitnamen die eindigen op "meloen" te verwijderen:
++ Gebruik `awk` om de fruitlijst om te zetten in een genummerde lijst. Hint: `NR` geeft het regelnummer in `awk` en `$0` de inhoud van een regel
+ 
++ Gebruik `sed` om alle fruitnamen die eindigen op "meloen" te verwijderen
   
 + maak een nieuw bestand "werknemers.txt" met daarin alleen de
   namen van de engineers. Uitdaging: probeer de commands van de eerste en laatste
-  opdracht te combineren zodat je het bestand data.txt niet aan hoeft te passen.
+  opdracht te combineren zodat je het bestand data.txt niet aan hoeft te passen
 
 + navigeer naar een map met meerdere bestanden en print het bestand dat het meeste 
-  geheugen kost 
+  geheugen kost.
 
 + vindt alle werknemers van wie hun naam start met "J"
 
 + zoek de regel die de informatie van John bevat
 
-+  vervang "Engineering" door "R&D":
++  vervang "Engineering" door "R&D"
 
 + print de werknemer met het hoogste salaris
 
-+ print alle werknemers die er voor 2016 bij zijn gekomen:
-+  verwijder de department kolom van het bestand:
++ print alle werknemers die er voor 2016 bij zijn gekomen
++  verwijder de department kolom van het bestand
 
 + bereken het gemiddelde salaris voor de werknemers
  
-+ verander alle salarissen onder 60000 naar 60000:
++ verander alle salarissen onder 60000 naar 60000
 
-+ verwijder alle werknemers van de Finance afdeling:
++ verwijder alle werknemers van de Finance afdeling
 
-+ voeg "Employee: " voor de naam van elke werknemer:
++ voeg "Employee: " voor de naam van elke werknemer
 
 + print alle kollomen behalve de tweede (hint: gebruik de for loop uit de slides)
 
