@@ -1,12 +1,3 @@
----
-title:
-- Linux opdrachten dag 1
-author:
-- Beer Meester
-theme:
-- Copenhagen
----
-
 # de basics
 
 + maak een nieuwe gebruiker aan en geef hem een naam en een home map
@@ -43,6 +34,10 @@ theme:
  Normaal gesproken zoekt het door alle bestanden map.
 
 + laat de gebruiker een fruitsoort uit het bestand fruit.txt selecteren.
++ print de eerste 10 fruitsoorten
++ print het aantal fruitsoorten
+ 
++ sorteer de fruitsoorten op alphabetische volgorde
 
 + laat de gebruiker opnieuw een fruitsoort selecteren en print dan "Je hebt 'naam_fruitsoort' geselecteerd"
 
@@ -60,11 +55,7 @@ theme:
 
 + vervang alle komma's met spaties in het bestand data.txt.
 
-
-
 + vindt alle werknemers die werken in de Engineering afdeling.
-
-
 
 + maak een nieuw bestand "werknemers.txt" met daarin alleen de
   namen van de engineers. Uitdaging: probeer de commands van de eerste en laatste
@@ -83,16 +74,17 @@ theme:
 
 # sed, awk en grep
 
-+ bereken het gemiddelde salaris voor de werknemers
-
-+ print alle werknemers die er voor 2016 bij zijn gekomen:
-
-+ print de werknemer met het hoogste salaris
++ zoek de regel die de informatie van John bevat
 
 +  vervang "Engineering" door "R&D":
 
-+ remove the department column from the file:
++ print de werknemer met het hoogste salaris
 
++ print alle werknemers die er voor 2016 bij zijn gekomen:
++  verwijder de department kolom van het bestand:
+
++ bereken het gemiddelde salaris voor de werknemers
+ 
 + verander alle salarissen onder 60000 naar 60000:
 
 + verwijder alle werknemers van de Finance afdeling:
@@ -100,76 +92,6 @@ theme:
 + voeg "Employee: " voor de naam van elke werknemer:
 
 + print alle kollomen behalve de tweede (hint: gebruik de for loop uit de slides)
-
-# Oefeningen met `sed`, `awk`, en `grep`
-
-## Oefeningen met `grep`
-
-1. **Zoek patronen in tekst**
-   - Zoek in een tekstbestand (`log.txt`) naar regels die het woord "error" bevatten.
-
-2. **Case-insensitive zoekopdracht**
-   - Zoek alle regels in `log.txt` die "Warning" bevatten, ongeacht hoofdlettergebruik.
-
-3. **Tellen van voorkomen**
-   - Tel hoe vaak het woord "user" voorkomt in `users.txt`.
-
-4. **Zoeken met regex**
-   - Zoek alle regels in `data.csv` waar de regel begint met een nummer.
-
-5. **Zoek naar IP-adressen**
-   - Zoek in `network.log` naar regels met IP-adressen.
-
-## Oefeningen met `sed`
-
-1. **Vervang woorden**
-   - Vervang in `config.txt` het woord "localhost" door "127.0.0.1".
-
-2. **Verwijder lege regels**
-   - Verwijder alle lege regels uit `notes.txt`.
-
-3. **Lijnen toevoegen**
-   - Voeg de tekst "New Header" toe op de eerste regel van `file.txt`.
-
-4. **Regex vervanging**
-   - Verwijder alle e-mailadressen uit `contacts.txt`.
-
-5. **Vervang patronen in meerdere bestanden**
-   - Vervang "foo" door "bar" in alle `.txt`-bestanden in de huidige map.
-
-## Oefeningen met `awk`
-
-1. **Print specifieke kolommen**
-   - Print de eerste en derde kolom van `data.csv`, gescheiden door een komma.
-
-2. **Som van kolomwaarden**
-   - Bereken de som van de tweede kolom in `values.txt`.
-
-3. **Gemiddelde van kolomwaarden**
-   - Bereken het gemiddelde van de eerste kolom in `grades.txt`.
-
-4. **Filteren op voorwaarde**
-   - Print alleen de rijen uit `sales.txt` waarbij de waarde in de tweede kolom groter is dan 100.
-
-5. **Zoek en vervang in specifieke kolommen**
-   - Vervang in `students.csv` alle vermeldingen van "Freshman" in de tweede kolom door "First Year".
-
-## Combinatie-oefeningen (`sed`, `awk`, en `grep`)
-
-1. **Filteren en vervanging**
-   - Zoek in `logs.txt` naar regels die "ERROR" bevatten en vervang "ERROR" door "ALERT" in die regels.
-
-2. **Kolomwaarden verwerken met patroonfiltering**
-   - Print de derde kolom van `records.csv` voor regels waarin "active" voorkomt.
-
-3. **Gecombineerde telling en filtering**
-   - Tel het aantal regels in `access.log` waarin het IP-adres "192.168.1.1" voorkomt en vervang alle vermeldingen van dat IP-adres door "REMOVED".
-
-4. **Oude dataformaat naar nieuw formaat**
-   - Stel dat je in `dates.txt` data hebt in het formaat `YYYY-MM-DD`, bijvoorbeeld `2023-11-03`. Vervang het formaat naar `DD/MM/YYYY`.
-
-5. **Statistieken maken uit een logbestand**
-   - Bereken het gemiddelde van de response-tijd in de derde kolom van `server.log`, maar alleen voor regels waarin "200 OK" voorkomt.
 
 # procesbeheer
 
