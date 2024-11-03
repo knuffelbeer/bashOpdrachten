@@ -57,22 +57,19 @@
 
 + vindt alle werknemers die werken in de Engineering afdeling.
 
++ gebruik `grep` in combinatie met `wc` om het aantal ingenieurs te tellen.
+
++ Gebruik `awk` om de fruitlijst om te zetten in een genummerde lijst. Hint: `NR` geeft het regelnummer in `awk`
++ Gebruik `sed` om alle fruitnamen die eindigen op "meloen" te verwijderen:
+  
 + maak een nieuw bestand "werknemers.txt" met daarin alleen de
   namen van de engineers. Uitdaging: probeer de commands van de eerste en laatste
   opdracht te combineren zodat je het bestand data.txt niet aan hoeft te passen.
 
-
-
 + navigeer naar een map met meerdere bestanden en print het bestand dat het meeste 
   geheugen kost 
 
-
-
 + vindt alle werknemers van wie hun naam start met "J"
-
-
-
-# sed, awk en grep
 
 + zoek de regel die de informatie van John bevat
 
