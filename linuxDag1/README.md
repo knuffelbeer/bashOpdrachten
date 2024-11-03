@@ -103,6 +103,75 @@ theme:
 
 + print alle kollomen behalve de tweede (hint: gebruik de for loop uit de slides)
 
+# Oefeningen met `sed`, `awk`, en `grep`
+
+## Oefeningen met `grep`
+
+1. **Zoek patronen in tekst**
+   - Zoek in een tekstbestand (`log.txt`) naar regels die het woord "error" bevatten.
+
+2. **Case-insensitive zoekopdracht**
+   - Zoek alle regels in `log.txt` die "Warning" bevatten, ongeacht hoofdlettergebruik.
+
+3. **Tellen van voorkomen**
+   - Tel hoe vaak het woord "user" voorkomt in `users.txt`.
+
+4. **Zoeken met regex**
+   - Zoek alle regels in `data.csv` waar de regel begint met een nummer.
+
+5. **Zoek naar IP-adressen**
+   - Zoek in `network.log` naar regels met IP-adressen.
+
+## Oefeningen met `sed`
+
+1. **Vervang woorden**
+   - Vervang in `config.txt` het woord "localhost" door "127.0.0.1".
+
+2. **Verwijder lege regels**
+   - Verwijder alle lege regels uit `notes.txt`.
+
+3. **Lijnen toevoegen**
+   - Voeg de tekst "New Header" toe op de eerste regel van `file.txt`.
+
+4. **Regex vervanging**
+   - Verwijder alle e-mailadressen uit `contacts.txt`.
+
+5. **Vervang patronen in meerdere bestanden**
+   - Vervang "foo" door "bar" in alle `.txt`-bestanden in de huidige map.
+
+## Oefeningen met `awk`
+
+1. **Print specifieke kolommen**
+   - Print de eerste en derde kolom van `data.csv`, gescheiden door een komma.
+
+2. **Som van kolomwaarden**
+   - Bereken de som van de tweede kolom in `values.txt`.
+
+3. **Gemiddelde van kolomwaarden**
+   - Bereken het gemiddelde van de eerste kolom in `grades.txt`.
+
+4. **Filteren op voorwaarde**
+   - Print alleen de rijen uit `sales.txt` waarbij de waarde in de tweede kolom groter is dan 100.
+
+5. **Zoek en vervang in specifieke kolommen**
+   - Vervang in `students.csv` alle vermeldingen van "Freshman" in de tweede kolom door "First Year".
+
+## Combinatie-oefeningen (`sed`, `awk`, en `grep`)
+
+1. **Filteren en vervanging**
+   - Zoek in `logs.txt` naar regels die "ERROR" bevatten en vervang "ERROR" door "ALERT" in die regels.
+
+2. **Kolomwaarden verwerken met patroonfiltering**
+   - Print de derde kolom van `records.csv` voor regels waarin "active" voorkomt.
+
+3. **Gecombineerde telling en filtering**
+   - Tel het aantal regels in `access.log` waarin het IP-adres "192.168.1.1" voorkomt en vervang alle vermeldingen van dat IP-adres door "REMOVED".
+
+4. **Oude dataformaat naar nieuw formaat**
+   - Stel dat je in `dates.txt` data hebt in het formaat `YYYY-MM-DD`, bijvoorbeeld `2023-11-03`. Vervang het formaat naar `DD/MM/YYYY`.
+
+5. **Statistieken maken uit een logbestand**
+   - Bereken het gemiddelde van de response-tijd in de derde kolom van `server.log`, maar alleen voor regels waarin "200 OK" voorkomt.
 # procesbeheer
 
 + start je browser op vanuit de 
