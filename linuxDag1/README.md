@@ -51,8 +51,6 @@ theme:
 
 + laat de gebruiker door alleen de mappen zoeken en een map selecteren
 
-# pipes, streams en substituties
-
 + je wilt nog een keer de inhoud van het bestand fruit.txt bekijken. 
   Helaas ben je vergeten dat je hier voor niet bat maar cat.
   Schrijf de error van het command bat fruit.txt naar een bestand.
@@ -172,6 +170,7 @@ theme:
 
 5. **Statistieken maken uit een logbestand**
    - Bereken het gemiddelde van de response-tijd in de derde kolom van `server.log`, maar alleen voor regels waarin "200 OK" voorkomt.
+
 # procesbeheer
 
 + start je browser op vanuit de 
