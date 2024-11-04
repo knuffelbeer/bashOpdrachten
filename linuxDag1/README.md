@@ -1,3 +1,5 @@
+
+slides: https://docs.google.com/presentation/d/1T8XnC9vux4RMNz_xl0tyo_yNEWzUkF07/edit#slide=id.g306cc11ef95_0_8
 # de basics
 
 + maak een nieuwe gebruiker aan en geef hem een naam en een home map
@@ -6,10 +8,15 @@
 
 + wissel naar de nieuwe gebruiker en maak in zijn home map een nieuwe map aan genaamd dag1Linux
 
++ maak een nieuw bestand aan
+
 + comprimeer deze map tot het opdrachten.tar bestand. en pak daarna het opdrachten.tar bestand weer uit
 
 + doe hetzelfde voor een maar dan met zip
 
++ laat alle bestanden (ook verborgen) zien in de huidige map
+
++ verwijder de map met alle bestanden erin
 
 # package manager
 
@@ -38,7 +45,7 @@
 + print het aantal fruitsoorten
  
 + sorteer de fruitsoorten op alphabetische volgorde
-+ print het aantal regels met `wc` voor alle bestanden die optxt eindigen
++ print het aantal regels met `wc` voor alle bestanden die op `.txt` eindigen
 
 + laat de gebruiker opnieuw een fruitsoort selecteren en print dan "Je hebt 'naam_fruitsoort' geselecteerd"
 
@@ -48,12 +55,13 @@
 + laat de gebruiker door alleen de mappen zoeken en een map selecteren
 
 + je wilt nog een keer de inhoud van het bestand fruit.txt bekijken
-  Helaas ben je vergeten dat je hier voor niet bat maar cat
-  Schrijf de error van het command bat fruit.txt naar een bestand
+  Helaas ben je vergeten dat je hier voor niet `bat` maar `cat`
+  Schrijf de error van het command `bat` fruit.txt naar een bestand
 
 # find
 
-+ Zoek naar alle bestanden met de extensie .txt in de huidige directory en subdirectories
++ navigeer naar $HOME en zoek naar alle bestanden met de extensie `.txt` in de huidige map en subdirectories
++ zoek naar alle bestanden met de extensie .txt alleen in de huidige map
 + zoek alle lege bestanden in de huidge map
 
 # sed, awk en grep
