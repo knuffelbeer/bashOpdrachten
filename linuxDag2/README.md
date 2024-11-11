@@ -1,4 +1,5 @@
 slides dag 2: https://docs.google.com/presentation/d/1thlWx6S7G7sLVgVpnnZvePeCpmoPhMsy/edit?usp=sharing&ouid=101080964634099741138&rtpof=true&sd=true
+
 Een aantal oefeningen om te oefenen met bash scripten. In het bestand forLoops.sh staan een aantal verschillende soorten `for`-loops die je kunt gebruiken.
 # Oefenen for-loops en if-statements
 + Print alle getallen van 0 tot 100. **Hint**: Gebruik een `for`-loop om door alle getallen van 0 tot 100 te loopen en `echo` om ze één voor één te printen
