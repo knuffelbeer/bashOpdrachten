@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if ! find . data -type d 2> /dev/null > /dev/null; then 
+	mkdir data
+fi
+
 while read -r p; do # een manier om door een bestand heen te loopen
 				name=$(echo "$p" | awk 'BEGIN {FS=","} {print $2}') # selecteer het tweede veld (komma-gescheiden)
 	name=$(echo "$name" | awk 'BEGIN {FS=" "} {print $1 "_" $2}') # scheid de voor en achternaam met een _
