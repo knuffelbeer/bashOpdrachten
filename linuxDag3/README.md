@@ -2,3 +2,4 @@ slides: https://docs.google.com/presentation/d/1Mf9mxv2Z9oVjM-5JYtSdo5GnOKND2_bO
 
 apache: https://ubuntu.com/tutorials/install-and-configure-apache
 
+netplan: https://man.archlinux.org/man/netplan.5.en
