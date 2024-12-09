@@ -1,5 +1,5 @@
 
-slides: https://docs.google.com/presentation/d/1T8XnC9vux4RMNz_xl0tyo_yNEWzUkF07/edit#slide=id.g306cc11ef95_0_8
+slides: https://docs.google.com/presentation/d/1nYkZ6jsxlI2CNARa8d3rBc_Pv0Jygnv1/edit?usp=sharing&ouid=101080964634099741138&rtpof=true&sd=true
 # de basics
 
 + maak een nieuwe gebruiker aan en geef hem een naam en een home map
