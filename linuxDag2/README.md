@@ -14,7 +14,7 @@ Een aantal oefeningen om te oefenen met bash scripten. In het bestand forLoops.s
 + In de map `data/` bevat elk bestand de gegevens  van één werknemer. Schrijf een script dat de inhoud van alle bestanden bij elkaar voegt.. **Hint**: gebruik een `for`-loop om door de resultaten van het `ls` command heen te loopen.
 
 # Maak een backup van belangrijke configuratiebestanden
-+  Maak een script dat belangrijke configuratiebestanden (bijv. `.bashrc`, `.vimrc`, `.tmux.conf`) kopieert naar een back-up directory, maar alleen als ze in de afgelopen 7 dagen zijn gewijzigd.. **Hint**: Gebruik een `for`-loop om door de bestanden te gaan en ze te kopiëren. Je kunt de datum van de laatste wijzingen zien met `stat`.
++  Maak een script dat belangrijke configuratiebestanden (bijv. `.bashrc`, `.vimrc`, `.tmux.conf`) kopieert naar een back-up directory, maar alleen als ze in de afgelopen 7 dagen zijn gewijzigd.. **Hint**: Gebruik een `for`-loop om door de bestanden te gaan en ze te kopiëren. Je kunt de bestanden die minder dan 7 dagen geleden zijn gewijzigd opvragen met `find -mtime -7`.
 
 # Maak Git makkelijker
 + Schrijf een script om `git add`, `git commit -m "message"` en `git push` allemaal in een keer uit te voeren.. **Hint**: laat de gebruiker een boodschap als input geven en gebruik dat als 'message' om voor de commit
