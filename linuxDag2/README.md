@@ -14,12 +14,12 @@ Een aantal oefeningen om te oefenen met bash scripten. In het bestand forLoops.s
 + In de map `data/` bevat elk bestand de gegevens  van één werknemer. Schrijf een script dat de inhoud van alle bestanden bij elkaar voegt.. **Hint**: gebruik een `for`-loop om door de resultaten van het `ls` command heen te loopen.
 
 # Maak een backup van belangrijke configuratiebestanden
-+  Maak een script dat belangrijke configuratiebestanden (bijv. `.bashrc`, `.vimrc`, `.tmux.conf`) kopieert naar een back-up directory, maar alleen als ze in de afgelopen 7 dagen zijn gewijzigd.. **Hint**: Gebruik een `for`-loop om door de bestanden te gaan en ze te kopiëren. Je kunt de bestanden die minder dan 7 dagen geleden zijn gewijzigd opvragen met `find -mtime -7`.
++  Maak een script dat belangrijke configuratiebestanden (bijv. `.bashrc`, `.vimrc`, `.tmux.conf`) kopieert naar een back-up directory, maar alleen als ze in de afgelopen 7 dagen zijn gewijzigd.. **Hint**: Gebruik een `for`-loop om door de bestanden te gaan en ze te kopiëren. Je kunt de datum van de laatste wijzingen zien met `stat`.
 
 # Maak Git makkelijker
 + Schrijf een script om `git add`, `git commit -m "message"` en `git push` allemaal in een keer uit te voeren.. **Hint**: laat de gebruiker een boodschap als input geven en gebruik dat als 'message' om voor de commit
 + Maak een alias in je `.zshrc` om dit bestand te runnen.
-+ Pas het bestand uit de vorige opgaves (voor de backup) aan om het bestand dat git synchroniseert te runnen wanneer één van de bestanden in de dotfiles map in de afgelopen 7 dagen is aangepast.
++ Pas het bestand uit de vorige opgaves (voor de backup) aan om het bestand dat git synchroniseert te runnen wanneer één van de bestanden in de dotfiles map in de afgelopen 7 dagen is aangepast. hint: gebruik `find -mtime -7` om alle bestanden te vinden die in de laatse 7 dagen zijn aangepast.
 
 #  Batch hernoemen van bestanden
 +  Loop door de lijst `"Alice_Williams.txt Bob_Johnson.txt David_Wilson.txt Jane_Wilson.txt Eve_Black.txt"` en  print de bestanden die aanwezig zijn in de map `data/`.. **Hint**: Gebruik een `for`-loop om door de lijst heen te loopen en `if`-statement om te checken of het bestand bestaat. Verder laat de exit-status van `test -e` laat zien of een bestand bestaat of niet. 
@@ -28,7 +28,7 @@ Verder kun je `sed` in combinatie met een capture-clause `sed 's/\(selecteer_tex
 + Schrijf een script dat alle `.txt` bestanden in een directory hernoemt door de huidige datum toe te voegen aan de bestandsnaam.. **Hint**: Gebruik een `for`-loop om door de bestanden te gaan en een `if`-statement om de bestandsextensie te controleren. Gebruik `date` om de huidige datum te krijgen en `mv` om de bestanden te hernoemen.
 
 # Vergemakkelijk het verplaatsen van bestanden
-+ Maak een  programma  dat de gebruiker eerst een bestand laat zoeken, en daarna een map in laat voeren om het bestand heen te verplaatsen.. **Hint**: Gebruik `fzf` om een bestand te zoeken en daarna `read` in combinatie met `fzf` om een map te zoeken. 
++ Maak een  programma  dat de gebruiker eerst een bestand laat zoeken, en daarna een map  in laat voeren om het bestand heen te verplaatsen.. **Hint**: Gebruik `fzf` om een bestand te zoeken en daarna `read` in combinatie met `fzf` om een map te zoeken. 
 
 # Controleer schijfruimte en waarschuw gebruikers
 +  Schrijf een script dat de schijfruimte van de `/home` directory controleert. Als de schijfruimte meer dan 80% is, moet het script een waarschuwingsbericht weergeven.. **Hint**: Gebruik een `if`-statement om het percentage schijfruimte te controleren.
