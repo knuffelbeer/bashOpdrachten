@@ -28,7 +28,7 @@ Verder kun je `sed` in combinatie met een capture-clause `sed 's/\(selecteer_tex
 + Schrijf een script dat alle `.txt` bestanden in een directory hernoemt door de huidige datum toe te voegen aan de bestandsnaam.. **Hint**: Gebruik een `for`-loop om door de bestanden te gaan en een `if`-statement om de bestandsextensie te controleren. Gebruik `date` om de huidige datum te krijgen en `mv` om de bestanden te hernoemen.
 
 # Vergemakkelijk het verplaatsen van bestanden
-+ Maak een  programma  dat de gebruiker eerst een bestand laat zoeken, en daarna een map laat zoeken in laat voeren om het bestand heen te verplaatsen.. **Hint**: Gebruik `fzf` om een bestand te zoeken en daarna `read` in combinatie met `fzf` om een map te zoeken. 
++ Maak een  programma  dat de gebruiker eerst een bestand laat zoeken, en daarna een map in laat voeren om het bestand heen te verplaatsen.. **Hint**: Gebruik `fzf` om een bestand te zoeken en daarna `read` in combinatie met `fzf` om een map te zoeken. 
 
 # Controleer schijfruimte en waarschuw gebruikers
 +  Schrijf een script dat de schijfruimte van de `/home` directory controleert. Als de schijfruimte meer dan 80% is, moet het script een waarschuwingsbericht weergeven.. **Hint**: Gebruik een `if`-statement om het percentage schijfruimte te controleren.
