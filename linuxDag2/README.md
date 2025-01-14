@@ -5,6 +5,10 @@ Een aantal oefeningen om te oefenen met bash scripten. In het bestand forLoops.s
 + Print alle getallen van 0 tot 100. **Hint**: Gebruik een `for`-loop om door alle getallen van 0 tot 100 te loopen en `echo` om ze één voor één te printen
 + Print nu alleen de even getallen. **Hint**: Gebruik een `if`-statement in de loop om te kijken of een getal even is. De modulo operator `%` check wat overblijft wanneer je een getal door een ander getal deelt. Als een getal even is, is `getal % 2` gelijk aan 0.
 
+# Oefenen met input
++ Schrijf een programma dat de gebruiker zijn naam laat invoeren en daarna een leuke boodschap print die die naam bevat
++ Laat het programma checken of het wordt gerund met een argument. Als er een argument is meegegeven gebruik dat dan als naam
+
 # Bestanden bij elkaar voegen
 + Maak een map `data/` aan en run daarna het bestand `genereerBestanden.sh` om de bestanden voor deze opdracht aan te maken. **Hint**: gebruik eerst `chmod` om het bestand de juiste permissies te geven.
 + In de map `data/` bevat elk bestand de gegevens  van één werknemer. Schrijf een script dat de inhoud van alle bestanden bij elkaar voegt.. **Hint**: gebruik een `for`-loop om door de resultaten van het `ls` command heen te loopen.
@@ -25,7 +29,6 @@ Verder kun je `sed` in combinatie met een capture-clause `sed 's/\(selecteer_tex
 
 # Vergemakkelijk het verplaatsen van bestanden
 + Maak een  programma  dat de gebruiker eerst een bestand laat zoeken, en daarna een map laat zoeken in laat voeren om het bestand heen te verplaatsen.. **Hint**: Gebruik `fzf` om een bestand te zoeken en daarna `read` in combinatie met `fzf` om een map te zoeken. 
-
 
 # Controleer schijfruimte en waarschuw gebruikers
 +  Schrijf een script dat de schijfruimte van de `/home` directory controleert. Als de schijfruimte meer dan 80% is, moet het script een waarschuwingsbericht weergeven.. **Hint**: Gebruik een `if`-statement om het percentage schijfruimte te controleren.
